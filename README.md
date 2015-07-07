@@ -33,7 +33,7 @@ Caveats
 After setting up my multi-instances environment, I noticed that by default, all the Vagrant boxes had to have a NAT network interface created through VirtualBox management. All the 4 Windows 7 machine had the same NAT IP of `10.0.2.15` and that has created an issue for the Selenium-Grid-Extra nodes to connect to the Selenium-Grid-Extra hub sitting on the Mac OSX machine. So once you've properly configured all of the Windows 7 VirtualBox machines, you are now going to ditch Vagrant for future management and use VirtualBox management only. 
 
 Go to VirtualBox Manager GUI and remove all the NAT network interface for all the Windows instances and leave or create a "Bridged Adapter" for the network interface configuration. 
-
+![VirtualBox Network Configuration](https://cloud.githubusercontent.com/assets/667944/8553729/417f9fc2-249a-11e5-8a37-3671ab84b408.png)
 
 Now restart all the Windows virtual machines and you are done. Happy testing.
 
