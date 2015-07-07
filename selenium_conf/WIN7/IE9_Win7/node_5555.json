@@ -2,9 +2,23 @@
   "capabilities": [
     {
       "seleniumProtocol": "WebDriver",
+      "browserName": "firefox",
+      "maxInstances": 1,
+      "version": "",
+      "platform": "WINDOWS"
+    },
+    {
+      "seleniumProtocol": "WebDriver",
       "browserName": "internet explorer",
       "maxInstances": 1,
       "version": "9",
+      "platform": "WINDOWS"
+    },
+    {
+      "seleniumProtocol": "WebDriver",
+      "browserName": "chrome",
+      "maxInstances": 1,
+      "version": "",
       "platform": "WINDOWS"
     }
   ],
