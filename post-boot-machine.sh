@@ -35,7 +35,7 @@ if [ ! -f "${JREWIN}" ]; then
 fi
 if [ ! -f "${SELENIUM}" ]; then
 	downloads_needed=1
-	echo "SeleniumGridEstras-*.jar missing, download into ${DOWNLOADS} from https://github.com/groupon/Selenium-Grid-Extras/releases" >&2
+	echo "SeleniumGridExtras-*.jar missing, download into ${DOWNLOADS} from https://github.com/groupon/Selenium-Grid-Extras/releases" >&2
 fi
 if [ ! -f "${IEDRIVER}" ]; then
 	downloads_needed=1
